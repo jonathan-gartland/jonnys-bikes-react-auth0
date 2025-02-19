@@ -6,10 +6,12 @@ export const SignupButton = () => {
 
   const handleSignUp = async () => {
     await loginWithRedirect({
-      prompt: "login",
-      screen_hint: "signup",
       appState: {
         returnTo: "/profile",
+      },
+      authorizationParams: {
+        prompt: "login",
+        screen_hint: "signup",
       },
     });
   };

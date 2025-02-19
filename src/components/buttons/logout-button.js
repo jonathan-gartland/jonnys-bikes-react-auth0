@@ -6,7 +6,9 @@ export const LogoutButton = () => {
 
   const handleLogout = () => {
     logout({
-      returnTo: window.location.origin,
+      logoutParams: {
+        returnTo: window.location.origin,
+      },
     });
   };
 

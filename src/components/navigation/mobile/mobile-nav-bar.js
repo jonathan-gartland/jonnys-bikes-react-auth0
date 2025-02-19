@@ -1,6 +1,5 @@
 import React from "react";
 import { MobileMenuToggleButton } from "./mobile-menu-toggle-button";
-import { MobileNavBarBrand } from "./mobile-nav-bar-brand";
 import { MobileNavBarButtons } from "./mobile-nav-bar-buttons";
 import { MobileNavBarTabs } from "./mobile-nav-bar-tabs";
 
@@ -49,7 +48,6 @@ export const MobileNavBar = () => {
   return (
     <div className="mobile-nav-bar__container">
       <nav className="mobile-nav-bar">
-        <MobileNavBarBrand handleClick={closeMobileMenu} />
         <MobileMenuToggleButton
           icon={mobileMenuIcon}
           handleClick={toggleMobileMenu}

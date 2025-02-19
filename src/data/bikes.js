@@ -10,7 +10,7 @@ const bikes = [
     image: '/Backwoods.png',
     tsp: '∞',
     errata: 'First mountain bike I purchased, 1994',
-    pedal: 'clipless'
+    pedal: 'clipless',
   },
   {
     model: 'Grade',
@@ -20,10 +20,10 @@ const bikes = [
     material: 'Carbon',
     'frame only': 0,
     'manufacture country': 'TW',
-    image: "/grade-Carbon-frame-105.png",
-    tsp: 700.00,
+    image: '/grade-Carbon-frame-105.png',
+    tsp: 700.0,
     errata: 'Original frame cracked, replaced',
-    pedal: 'clipless'
+    pedal: 'clipless',
   },
   {
     model: 'Timberline',
@@ -33,10 +33,10 @@ const bikes = [
     material: 'Steel',
     'frame only': 0,
     'manufacture country': 'TW',
-    image: "/GTTimberlineFS1996.jpg",
-    tsp: 450.00,
+    image: '/GTTimberlineFS1996.jpg',
+    tsp: 450.0,
     errata: 'Racing team paint job, mostly original parts',
-    pedal: 'flat'
+    pedal: 'flat',
   },
   {
     model: 'Grade',
@@ -46,10 +46,10 @@ const bikes = [
     material: 'Carbon',
     'frame only': 0,
     'manufacture country': 'TW',
-    image: "/image0.jpg",
-    tsp: 900.00,
+    image: '/image0.jpg',
+    tsp: 900.0,
     errata: '',
-    pedal: 'clipless'
+    pedal: 'clipless',
   },
   {
     model: 'Corsa 2.0',
@@ -59,10 +59,10 @@ const bikes = [
     material: 'Steel',
     'frame only': 0,
     'manufacture country': 'TW',
-    image: "/corsa2.jpg",
-    tsp: 300.00,
+    image: '/corsa2.jpg',
+    tsp: 300.0,
     errata: 'being used as indoor trainer',
-    pedal: 'clipless'
+    pedal: 'clipless',
   },
   {
     model: 'Chameleon',
@@ -72,10 +72,10 @@ const bikes = [
     material: 'Aluminum',
     'frame only': 0,
     'manufacture country': 'TW',
-    image: "/s1600_Santa_Cruz_5010_Chamelion_R_29.jpg",
-    tsp: 1500.00,
+    image: '/s1600_Santa_Cruz_5010_Chamelion_R_29.jpg',
+    tsp: 1500.0,
     errata: '27.5+/29 wheels & kits to switch',
-    pedal: 'flat'
+    pedal: 'flat',
   },
   {
     model: 'Chameleon',
@@ -85,10 +85,10 @@ const bikes = [
     material: 'Aluminum',
     'frame only': 0,
     'manufacture country': 'TW',
-    image: "/2022-Santa-Cruz-Chameleon-Review_12.jpg",
-    tsp: 2300.00,
+    image: '/2022-Santa-Cruz-Chameleon-Review_12.jpg',
+    tsp: 2300.0,
     errata: '29 wheels, 2.5 tires',
-    pedal: 'flat'
+    pedal: 'flat',
   },
   {
     model: 'Hightower',
@@ -98,10 +98,10 @@ const bikes = [
     material: 'Aluminum',
     'frame only': 0,
     'manufacture country': 'TW',
-    image: "/htower.jpeg",
-    tsp: 2300.00,
+    image: '/htower.jpeg',
+    tsp: 2300.0,
     errata: '29 wheels, 2.4 tires, full suspension',
-    pedal: 'flat'
+    pedal: 'flat',
   },
   {
     model: 'Hoo Koo e Koo',
@@ -111,10 +111,10 @@ const bikes = [
     material: 'Steel',
     'frame only': 0,
     'manufacture country': 'TW',
-    image: "/p6pb24703805.jpg",
-    tsp: 1200.00,
+    image: '/p6pb24703805.jpg',
+    tsp: 1200.0,
     errata: 'original parts, shifters need work',
-    pedal: 'flat'
+    pedal: 'flat',
   },
   {
     model: 'Hoo Koo e Koo',
@@ -124,10 +124,10 @@ const bikes = [
     material: 'Steel',
     'frame only': 0,
     'manufacture country': 'TW',
-    image: "/p6pb24703805.jpg",
-    tsp: 250.00,
+    image: '/p6pb24703805.jpg',
+    tsp: 250.0,
     errata: 'project bike, needs work',
-    pedal: 'flat'
+    pedal: 'flat',
   },
   {
     model: 'Paragon',
@@ -138,9 +138,9 @@ const bikes = [
     'frame only': 0,
     'manufacture country': 'US',
     image: '/paragon.png',
-    tsp: 300.00,
+    tsp: 300.0,
     errata: '',
-    pedal: 'flat'
+    pedal: 'flat',
   },
   {
     model: 'Versailles',
@@ -150,10 +150,10 @@ const bikes = [
     material: 'Steel/Carbon',
     'frame only': 0,
     'manufacture country': 'US',
-    image: "/LemondVersailles.jpeg",
-    tsp: 800.00,
+    image: '/LemondVersailles.jpeg',
+    tsp: 800.0,
     errata: 'Carbon/Steel mix, 105 groupset',
-    pedal: 'clipless'
+    pedal: 'clipless',
   },
   {
     model: 'Arrivee',
@@ -163,10 +163,10 @@ const bikes = [
     material: 'Titanium',
     'frame only': 0,
     'manufacture country': 'US',
-    image: "/ac6150e5-b610-4d3d-86af-1af027005b52.png",
-    tsp: 1100.00,
+    image: '/ac6150e5-b610-4d3d-86af-1af027005b52.png',
+    tsp: 1100.0,
     errata: 'Titanium frame, new old stock right shifter',
-    pedal: 'clipless'
+    pedal: 'clipless',
   },
   {
     model: 'Big Sur',
@@ -176,10 +176,10 @@ const bikes = [
     material: 'Aluminum',
     'frame only': 1,
     'manufacture country': 'US',
-    image: "/bigsur.png",
-    tsp: 100.00,
+    image: '/bigsur.png',
+    tsp: 100.0,
     errata: 'frame only',
-    pedal: 'n/a frame'
+    pedal: 'n/a frame',
   },
   {
     model: 'Supercaliber',
@@ -189,23 +189,23 @@ const bikes = [
     material: 'Carbon',
     'frame only': 1,
     'manufacture country': 'US',
-    image: "/supercaliber.png",
-    tsp: 150.00,
+    image: '/supercaliber.png',
+    tsp: 150.0,
     errata: 'frame only',
-    pedal: 'n/a frame'
+    pedal: 'n/a frame',
   },
   {
     model: 'Aristotle',
-    brand: "Republic",
+    brand: 'Republic',
     type: 'fixed/single-speed',
     year: 2010,
     material: 'Steel',
     'frame only': 0,
     'manufacture country': 'CN',
     image: '/fixie.png',
-    tsp: 200.00,
+    tsp: 200.0,
     errata: 'single speed, flip-flop hub',
-    pedal: 'clipless'
+    pedal: 'clipless',
   },
 ];
 
