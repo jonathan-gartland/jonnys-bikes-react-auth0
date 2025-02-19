@@ -1,6 +1,6 @@
-import { useAuth0 } from "@auth0/auth0-react";
-import React from "react";
-import { MobileNavBarTab } from "./mobile-nav-bar-tab";
+import { useAuth0 } from '@auth0/auth0-react';
+import React from 'react';
+import { MobileNavBarTab } from './mobile-nav-bar-tab';
 
 export const MobileNavBarTabs = ({ handleClick }) => {
   const { isAuthenticated } = useAuth0();

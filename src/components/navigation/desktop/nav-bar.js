@@ -1,6 +1,6 @@
-import React from "react";
-import { NavBarButtons } from "./nav-bar-buttons";
-import { NavBarTabs } from "./nav-bar-tabs";
+import React from 'react';
+import { NavBarButtons } from './nav-bar-buttons';
+import { NavBarTabs } from './nav-bar-tabs';
 
 export const NavBar = () => {
   return (

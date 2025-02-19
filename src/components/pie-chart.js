@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import * as echarts from "echarts";
-import bikes from "../data/bikes";
+import React, { useEffect } from 'react';
+import * as echarts from 'echarts';
+import bikes from '../data/bikes';
 
 const PieChart = ({ text, name, divname, queryname, subtext }) => {
   useEffect(() => {
@@ -20,32 +20,32 @@ const PieChart = ({ text, name, divname, queryname, subtext }) => {
     const option = {
       title: {
         text,
-        subtext: subtext !== undefined ? subtext : "",
-        left: "center",
-        color: ""
+        subtext: subtext !== undefined ? subtext : '',
+        left: 'center',
+        color: '',
       },
       tooltip: {
-        trigger: "item",
+        trigger: 'item',
       },
       legend: {
-        orient: "vertical",
+        orient: 'vertical',
         right: 10,
         top: 0,
         textStyle: {
-          color: "#ffffff", // Set title text color to white
+          color: '#ffffff', // Set title text color to white
         },
       },
       series: [
         {
           name,
-          type: "pie",
-          radius: "50%",
+          type: 'pie',
+          radius: '50%',
           data: chartData,
           emphasis: {
             itemStyle: {
               shadowBlur: 10,
               shadowOffsetX: 0,
-              shadowColor: "rgba(0, 0, 0, 0.5)",
+              shadowColor: 'rgba(0, 0, 0, 0.5)',
             },
           },
         },
@@ -58,7 +58,7 @@ const PieChart = ({ text, name, divname, queryname, subtext }) => {
     <div
       id={divname}
       className="flex items-center justify-center"
-      style={{ width: "650px", height: "400px"}}
+      style={{ width: '650px', height: '400px' }}
     ></div>
   );
 };

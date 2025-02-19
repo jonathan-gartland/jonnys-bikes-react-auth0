@@ -1,5 +1,5 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export const MobileNavBarTab = ({ path, label, handleClick }) => {
   return (
@@ -8,7 +8,7 @@ export const MobileNavBarTab = ({ path, label, handleClick }) => {
       to={path}
       end
       className={({ isActive }) =>
-        "mobile-nav-bar__tab " + (isActive ? "mobile-nav-bar__tab--active" : "")
+        'mobile-nav-bar__tab ' + (isActive ? 'mobile-nav-bar__tab--active' : '')
       }
     >
       {label}

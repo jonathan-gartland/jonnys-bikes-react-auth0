@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export const Auth0Feature = ({ title, description, resourceUrl, icon }) => (
   <a
@@ -7,9 +7,7 @@ export const Auth0Feature = ({ title, description, resourceUrl, icon }) => (
     target="_blank"
     rel="noopener noreferrer"
   >
-    <h3 className="auth0-feature__headline">
-      {title}
-    </h3>
+    <h3 className="auth0-feature__headline">{title}</h3>
     <p className="auth0-feature__description">{description}</p>
   </a>
 );
