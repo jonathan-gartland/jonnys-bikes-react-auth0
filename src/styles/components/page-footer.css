@@ -199,3 +199,29 @@
     text-align: left;
   }
 }
+
+.footer-link-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.page-footer-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #1bc99f;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.footer-link:hover {
+  text-decoration: underline;
+}

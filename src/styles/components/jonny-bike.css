@@ -1,0 +1,27 @@
+.bike-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bike-table th,
+.bike-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: var(--black);
+}
+
+.bike-table th {
+    background-color: #666666; /* Ensure this is the only background-color for th */
+    color: #ffffff;
+    text-align: center; /* Center the header elements */
+}
+
+.bike-table tr.even {
+    background-color: #f9f9f9;
+}
+
+.bike-table tr.odd {
+    background-color: #ffffff;
+}
+

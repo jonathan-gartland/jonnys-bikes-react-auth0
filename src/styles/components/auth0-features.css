@@ -31,7 +31,7 @@
 .auth0-feature {
   display: block;
 
-  background-color: var(--white);
+  background-color: rgba(27, 201, 159, 0.85);/*var(--white);*/
 
   color: var(--black);
 

@@ -1,18 +1,45 @@
 .hero-banner {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   width: 100%;
 
-  background: var(--yellow-mandarine-gradient);
-
+  /*background-image: url('/public/p6pb24703805.jpg');*/
+  /*background: var(--yellow-mandarine-gradient);*/
+  /*background-size: cover;*/
+  /*background-position: center;*/
   color: var(--black);
+  border-radius: 15px;
 
   /* responsive */
 
   margin: 0 auto;
   padding: 3.2rem 6.4rem;
+  overflow: hidden;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/p6pb24703805.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.5);
+  z-index: -1; /* Ensure the pseudo-element is behind the text */
+}
+
+.hero-banner h1 {
+  position: relative;
+  font-size: 80px;
+  color: var(--black);
+  /*color: #ebf8ff;*/
+  /*color: lightblue;*/
 }
 
 .hero-banner--yellow-mandarine {
@@ -71,7 +98,7 @@
 }
 
 .hero-banner__description {
-  max-width: 58rem;
+  max-width: 90rem;
 
   text-align: center;
 
@@ -79,8 +106,9 @@
 
   margin-bottom: 3.2rem;
 
-  font-size: 20px;
+  font-size: 24px;
   line-height: 3.2rem;
+  padding-top: 3.2rem;
 }
 
 @media only screen and (max-width: 540px) {
@@ -107,8 +135,8 @@
     font-size: 3.2rem;
   }
 
-  .hero-banner__description {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-  }
+  /*.hero-banner__description {*/
+  /*  font-size: 1.6rem;*/
+  /*  line-height: 2.4rem;*/
+  /*}*/
 }

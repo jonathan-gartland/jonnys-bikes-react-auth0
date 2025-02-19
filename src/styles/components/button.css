@@ -4,7 +4,7 @@
 
   font-family: var(--font-primary);
   font-weight: 600;
-  color: var(--white);
+  color: rgba(27, 201, 159, 0.85); /*var(--white);*/
 
   cursor: pointer;
   user-select: none;
@@ -30,15 +30,16 @@
 }
 
 .button--primary {
-  background-color: var(--indigo);
+  background-color: rgba(27, 201, 159, 0.85); /*var(--indigo);*/
 }
 
 .button--primary:hover {
   background: rgba(99, 93, 255, 0.85);
 }
 
+
 .button--secondary {
-  background-color: var(--white);
+  background-color: rgba(27, 201, 159, 0.85);/*var(--white);*/
   color: var(--black);
 }
 
@@ -66,14 +67,22 @@
     line-height: 2rem;
   }
 }
+/*
+.button--primary {
+  background-color: #1bc99f;
+}
 
+.button--primary:hover {
+  background: rgba(27, 201, 159, 0.85);
+}
+*/
 .button__login,
 .button__logout {
   min-width: 8.4rem;
 
-  border: 0.1rem solid var(--indigo);
+  border: 0.1rem solid #1bc99f;
   color: var(--white);
-  background: var(--indigo);
+  background: rgba(27, 201, 159, 0.85);
   width: 50%;
   font-size: 1.6rem;
 
@@ -96,7 +105,7 @@
 .button__sign-up {
   min-width: 8.4rem;
 
-  border: 0.1rem solid var(--white);
+  border: 0.1rem solid rgba(27, 201, 159, 0.85);/*var(--white);*/
   color: var(--white);
   background-color: transparent;
   width: 50%;

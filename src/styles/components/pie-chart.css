@@ -1,0 +1,45 @@
+.admin-page-container {
+    position: relative;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 16px;
+    border: 2px solid #6b7280;
+    background-color: #bfdbfe;
+    border-radius: 8px;
+}
+
+.page-title {
+    padding-bottom: 20px;
+    font-size: 48px;
+    color: #1bc99f;
+}
+
+.page-description {
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+.pie-chart-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.pie-chart-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pie-chart-text {
+    flex: 1;
+    font-size: 24px;
+    color: #1bc99f;
+}
+
+.pie-chart-container {
+    flex: 2;
+}
