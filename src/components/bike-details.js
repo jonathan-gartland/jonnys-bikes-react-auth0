@@ -36,7 +36,7 @@ const BikeDetails = ({
           >
             <img
               src={`/${brand}.png`}
-              alt={`${brand} image`}
+              alt={brand}
               width={128}
               height={128}
               style={{
@@ -61,7 +61,7 @@ const BikeDetails = ({
         >
           <img
             src={image}
-            alt={`${name} image`}
+            alt={name}
             width={512}
             height={374}
             style={{ borderRadius: '8px', marginRight: '16px' }}
