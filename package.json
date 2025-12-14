@@ -4,13 +4,13 @@
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^1.12.0",
-    "axios": "1.7.8",
+    "axios": "^1.13.2",
     "echarts": "^5.6.0",
     "echarts-for-react": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^0.0.0"
   },
   "scripts": {
     "start": "cross-env PORT=4040 react-scripts start",
@@ -49,6 +49,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.1.0",
     "prettier": "^2.8.8",
-    "vercel": "^28.12.8"
+    "vercel": "^25.2.0"
   }
 }
